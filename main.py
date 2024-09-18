@@ -47,23 +47,15 @@ uitvoer.place(x=10, y=100)
 
 
 #functie mandelbrot
-
-a=invoerX
-b=invoerY
-
-mand=0
-
-for mand in range(mand < invoerA and )
+x = float(invoerX.get())
+y = float(invoerY.get())
+a = 0
+b = 0
+mand = 0
+while mand < invoerA and math.sqrt((x - a)**2 + (y - b)**2) < 2:
+    a = (a**2 - b**2 + x)
+    b = (a**2 - b**2 + y)
+    mand += 1
     
-    
-    
- 
-    
-    
-
-
-
-
-
 
 scherm.mainloop()
